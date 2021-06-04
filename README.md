@@ -43,7 +43,6 @@ ___
 
 # <center> Data Analysis </center>
 
-___
 
 After viewing the initial data, I began my data analysis with the few that had the highest correlation with price.
 
@@ -53,13 +52,11 @@ I began by looking into bedrooms and immediately detected an irregularity. A qui
 
 ![bedrooms_per_house.png](https://raw.githubusercontent.com/ismizu/Phase_2_Project/main/images/bedrooms_per_house.png)
 
-___
 
 At an initial glance, there is no particular aspect that stands out as far as explaining the bedrooms count.
 
 A quick plug of the latitude and longitude show us the house's location.
 
-___
 
 ![33_bedrooms_house_folium.png](https://raw.githubusercontent.com/ismizu/Phase_2_Project/main/images/33_bedrooms_house_folium.png)
 
@@ -72,11 +69,8 @@ ___
 
 #  <center> Binning </center>
 
-___
 
-<p>
-<p>Following this, I investigated the grades column and found a suprising disparity in values.
-<p>
+Following this, I investigated the grades column and found a suprising disparity in values.
 
 ![grades.png](https://raw.githubusercontent.com/ismizu/Phase_2_Project/main/images/grades.png)
 
@@ -113,7 +107,6 @@ ___
 
 # <center> Accounting for High Value Homes </center>
 
-___
 
 One of the items that threw off my initial model, was a much higher heteroskedasticity than showed by the final model. In order account for this, I plotted them against a map to view their locations.
 
@@ -131,7 +124,6 @@ ___
 
 # Linear Regression Model
 
-___
 
 I now place them into a Linear Regression Model to view the model's R-squared value as a preliminary deciding factor.
 
@@ -143,7 +135,6 @@ ___
 
 # <center> Testing the Model </center>
 
-___
 
 After the data analysis, I split the data into a test/train split to see how well it performs against unseen data.
 
