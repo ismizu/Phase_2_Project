@@ -39,7 +39,6 @@ My primary focus for this project is three-fold:
 3. Engineer new features that might better represent homes that fall outside the average range
 4. Place these features within a model to predict house prices
 
-___
 
 # <center> Data Analysis </center>
 
@@ -65,7 +64,6 @@ It would appear that the houses in this area would be incapable of supporting th
 - Set the max bedrooms to be approximately 5 standard deviations from the next largest value.
 - If over this amount, set to the average number of bedrooms rounded to the nearest whole number
 
-___
 
 #  <center> Binning </center>
 
@@ -103,9 +101,8 @@ To compromise in a similar manner to grade, the bathrooms were separated into th
 
 Running an ANOVA test on these variables shows a similarly low p-value.
 
-___
 
-# <center> Accounting for High Value Homes </center>
+# Accounting for High Value Homes
 
 
 One of the items that threw off my initial model, was a much higher heteroskedasticity than showed by the final model. In order account for this, I plotted them against a map to view their locations.
@@ -120,7 +117,6 @@ Comparing these two maps, I can see that a good portion of the waterfront proper
 
 I also checked its correlation with price as well as run a T-test between houses marked as waterfront_wealth and houses not marked so. The results showed a slight correlation as well as a very low p-value.
 
-___
 
 # Linear Regression Model
 
@@ -131,7 +127,6 @@ With a satisfactory result, I continue to predicting results.
 
 ![ols_results.png](https://raw.githubusercontent.com/ismizu/Phase_2_Project/main/images/ols_results.png)
 
-___
 
 # <center> Testing the Model </center>
 
