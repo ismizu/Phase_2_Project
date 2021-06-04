@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this notebook I conduct data analysis on King County Housing data for the purpose of making predictions via Linear Regression. In addition to familiarizing myself with potential modeling problems, I also create features in an attempt to better represent housing prices in my model.
+In this project I conduct data analysis on King County Housing data for the purpose of making predictions via Linear Regression. In addition to familiarizing myself with potential modeling problems, I also create features in an attempt to better represent housing prices in my model.
 
 ![pexels-photo-1546166.jpeg](https://raw.githubusercontent.com/ismizu/Phase_2_Project/main/images/pexels-photo-1546166.jpeg)
 
